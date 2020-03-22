@@ -1,0 +1,9 @@
+Elastcsearch
+curl -X GET localhost:9200/_search
+
+Api
+curl -X GET http://localhost:8080/rest/search/all
+curl -X GET http://localhost:8080/rest/search/descricao/Ligar
+
+curl -X GET http://localhost:8080/rest/manual/search/agenda
+curl -X GET http://localhost:8080/rest/manual/search/*
